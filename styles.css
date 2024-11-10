@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: Roboto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-header{
+    min-height: 4rem;
+    position: relative;
+}
+
+.main-header .two-headers{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    min-height: 4rem;
+    background-color: white;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.main-header .two-headers .header-one{
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    width: 10%;
+    /* background-color: #e67400; */
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+}
+
+.main-header .two-headers .header-one a{
+    text-decoration: none;
+    color:black;
+}
+
+.main-header .two-headers img{
+    width: 2rem;
+    display: inline;
+}
+
+.main-header .two-headers .header-two{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 25%;
+    height: 4rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 450;
+    padding-left: 2rem;
+    padding-right: 0rem;
+    /* background-color: aqua; */
+}
+.main-header .two-headers .header-two .header-two-one{
+    padding-top: 1.4rem;
+}
+
+
+.main-header .two-headers .header-two .header-two-one{
+    /* display: block; */
+    width: 100%;
+    /* height: 50px; */
+    position: absolute;
+    /* background-color: #bc382e; */
+    min-height: 5rem;
+}
+
+.main-header .two-headers .header-two .header-two-one a{
+    text-decoration: none;
+    color: black;
+} 
+
+.main-header .two-headers .header-two .header-two-two{
+    position: absolute;
+    right: 0rem;
+    width: 70%;
+    height: 100%;
+    padding: 0.5rem 1.4rem;
+    /* background-color: palevioletred; */
+}
+
+.main-header .two-headers .header-two .header-two-two .button-sec-1{
+    position: absolute;
+    width: 11rem;
+    height: 3rem;   
+    /* left: 42%; */
+    /* top: 24%; */
+    font-size: 1rem;
+    padding: 0.9rem;
+    text-transform: uppercase;
+    background-color: #ff8000;
+    border-radius: 5px;
+}
+
+.main-header .two-headers .header-two a{
+    text-decoration: none;
+    color: white;
+}
+
+.sticky-header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 4;
+}
+
+.header-logo a,
+.header-signin a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header-signin a:hover{
+    opacity: 0.55;
+}
+.header-logo{
+    background-color:#2f454f;
+    display: block;
+    width: 70%;
+    padding: 23px;
+}
+.header-signin{
+    display: block;
+    padding: 23px;
+    width: 30%;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.sticky-header .main-header .header-logo img{
+    width: 2rem;
+}
+
+.section1{
+    position: relative;
+    min-height: 35rem;
+    background-color: #bc382e;
+    text-align: center;
+    color: white;
+}
+
+.section1 .s1-header h2{
+    font-size: 3em;
+    font-weight: 300;
+    padding-top: 25px;
+}
+.section1 .s1-header p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+}
+.section1 .s1-header .button-sec-1{
+    position: absolute;
+    width: 11rem;
+    height: 3rem;
+    /* background-color: black; */
+    left: 42%;
+    top: 24%;
+    font-size: 1rem;
+    padding: 0.9rem;
+    text-transform: uppercase;
+    background-color: #ff8000;
+    border-radius: 5px;
+}
+
+.section1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.section1 .s1-header .sec1-img{
+    display: block;
+    padding-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    /* background-color: red; */
+}
+
+.section2{
+    height: 35rem;
+    background-color: #ff8000;
+}
+
+.section2 .two-divs{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    position: relative;
+}
+
+.section2 .div1{
+    position: absolute; 
+    left: 0px;
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.section2 .div1 .inner-div{
+    position: absolute;
+    top: 130px;
+    left: 160px;
+    width: 75%;
+    height: 50%;   
+    /* background-color: rgb(109, 109, 0); */
+    color: white;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.section2 .div1 .inner-div p{
+    color: white;
+    font-size: 1.25rem;
+    padding-top: 25px;
+}
+
+.section2 .div2{
+    position: absolute;
+    right: 0px;
+    width: 60%;
+    height: 100%;
+    /* background-color:blueviolet; */
+} 
+
+.section2 .two-divs .div2{
+    display: block;
+}
+
+.section2 .two-divs .div2 .brush{
+    position: relative;
+    width: 100%;
+    height: 35%;
+    overflow: hidden;
+    /* background-color: black; */
+}
+
+.section2 .two-divs .div2 .brush img{
+    position: absolute;
+    left: 50px;
+    top: 25px;
+}
+
+.section2 .two-divs .div2 .cards{
+    width: 100%;
+    min-height: 100%;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 10%;
+    overflow: hidden;
+}
+
+.section2 .two-divs .div2 .cards img:nth-child(1){
+    width: 100%;
+    position: absolute;
+    left: 16%;
+    top: 0%;
+}
+.section2 .two-divs .div2 .cards img:nth-child(2){
+    width: 100%;
+    position: absolute;
+    left: 31%;
+    top: 15%;
+}
+
+.section3{
+    min-height: 35rem;
+    background-color: #bc382e;
+    position: relative;
+}
+
+.section3 .two-divs{
+    width: 100%;
+    height: 35rem;
+    /* background-color: black; */
+    position: relative;
+}
+
+.section3 .div1{
+    position: absolute; 
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.section3 .div1 .inner-div{
+    position: absolute;
+    top: 130px;
+    left: 160px;
+    width: 75%;
+    height: 50%;   
+    /* background-color: rgb(109, 109, 0); */
+    color: white;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.section3 .div1 .inner-div p{
+    color: white;
+    font-size: 1.25rem;
+    padding-top: 25px;
+}
+
+.section3 .div2{
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    /* background-color:blueviolet; */
+    padding-top: 50px;
+}
+
+.section3 .div2 .www{
+    position: relative;
+    width: 100%;
+    min-height: 30rem;
+    overflow: hidden;
+    /* background-color: rgb(47, 255, 0); */
+}
+
+.section3 .div2 .www img:nth-child(1){
+    position: absolute;
+    top: 140px;
+    left:0px;
+}
+
+.section3 .div2 .www img:nth-child(2){
+    position: absolute;
+    top: 170px;
+    left: 125px;
+}
+
+.section3 .div2 .www img:nth-child(3){
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    
+}
+
+.section4{
+    min-height: 35rem;
+    background-color: #388d80;
+}
+
+.section4 .two-divs{
+    width: 100%;
+    height: 35rem;
+    /* background-color: black; */
+    position: relative;
+}
+
+.section4 .div1{
+    position: absolute; 
+    left: 0px;
+    width: 35%;
+    height: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    padding: 40px 0px;
+}
+
+.section4 .div2{
+    position: absolute;
+    right: 0px;
+    width: 65%;
+    height: 100%;
+    /* background-color:blueviolet; */
+    padding-top: 50px;
+}
+
+.section4 .div2 .inner-div{
+    position: absolute;
+    top: 130px;
+    left: 160px;
+    width: 75%;
+    height: 50%;   
+    /* background-color: rgb(109, 109, 0); */
+    color: white;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.section4 .div2 .inner-div p{
+    color: white;
+    font-size: 1.25rem;
+    padding-top: 25px;
+    
+}
+
+.section4 .div2 .div3{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0px;
+    /* background-color: #bc382e; */
+    overflow: hidden;
+}
+
+.section4 .div2 .div3 img:nth-child(1){
+    position: absolute;
+    top: 15%;
+    right: 150px;
+}
+
+.section4 .div2 .div3 img:nth-child(2){
+    position: absolute;
+    top: 12%;
+    left: 69%;
+}
+
+.section4 .div2 .div3 img:nth-child(3){
+    position: absolute;
+    right: 0px;
+}
+
+.section5{
+    min-height: 35rem;
+    background-color: #577783;
+}
+
+.section5 .two-divs{
+    width: 100%;
+    height: 35rem;
+    /* background-color: black; */
+    position: relative;
+}
+
+.section5 .div1{
+    position: absolute; 
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.section5 .div1 .inner-div{
+    position: absolute;
+    top: 130px;
+    left: 160px;
+    width: 75%;
+    height: 50%;   
+    /* background-color: rgb(109, 109, 0); */
+    color: white;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.section5 .div1 .inner-div p{
+    color: white;
+    font-size: 1.25rem;
+    padding-top: 25px;
+}
+
+.section5 .div2{
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    /* background-color:blueviolet; */
+    overflow: hidden;
+}
+
+.section5 .div2 .audience img:nth-child(1){
+    position: absolute;
+    top: 5%;
+    /* left: 83%; */
+}
+
+.section5 .div2 .audience img:nth-child(2){
+    position: absolute;
+    top: 7.3%;
+    left: 83%;
+}
+
+.section5 .div2 .audience img:nth-child(3){
+    position: absolute;
+    /* top: 21rem; */
+    left: 0%;
+    bottom: 5%;
+}
+
+.section5 .div2 .audience img:nth-child(4){
+    position: absolute;
+    /* top: 21rem; */
+    left: 83%;
+    bottom: 6%;
+}
+
+.section6{
+    min-height: 35rem;
+    background-color: #bc382e;
+}
+
+.section6 .two-divs{
+    width: 100%;
+    height: 35rem;
+    /* background-color: black; */
+    position: relative;
+}
+
+.section6 .div1{
+    position: absolute; 
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.section6 .div1 .inner-div{
+    position: absolute;
+    top: 130px;
+    left: 160px;
+    width: 75%;
+    height: 50%;   
+    /* background-color: rgb(109, 109, 0); */
+    color: white;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.section6 .div1 .inner-div p{
+    color: white;
+    font-size: 1.25rem;
+    padding-top: 25px;
+}
+
+.section6 .div2{
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    /* background-color:blueviolet; */
+    overflow: hidden;
+}
+
+.section6 .div2 .memories img:nth-child(1){
+    position: absolute;
+    width: 50%;
+    height: auto;
+    top: 32%;
+    z-index: 3;
+    /* left: 83%; */
+}
+
+.section6 .div2 .memories img:nth-child(2){
+    position: absolute;
+    width: 60%;
+    height: auto;
+    left: 20%;
+    top: 5%;
+    z-index: 2;
+}
+
+.section6 .div2 .memories img:nth-child(3){
+    position: absolute;
+    width: 45%;
+    top: 10%;
+    left: 65%;
+    z-index: 1;
+}
+
+.section7{
+    min-height: 35rem;
+    background-color: #e67400;
+    background-image: url("/Images/section7/millions-map_2x.png"), url("/Images/section7/millions-markers_2x.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.section7 .one-div{
+    width: 100%;
+    height: 35rem;
+    /* background-color: #388d80; */
+}
+
+.section7 .one-div .div1{
+    position: absolute;
+    width: 40%;
+    height: 32%;
+    /* background-color: #388d80; */
+    top: 30%;
+    left: 30%;
+}
+
+.section7 .one-div .div1{
+    position: absolute;
+    /* background-color: rgb(109, 109, 0); */
+    color: white;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.section7 .one-div .div1 p{
+    color: white;
+    font-size: 1.25rem;
+    padding-top: 20px;
+}
+
+.section7 .one-div .button-sec-7{
+    position: absolute;
+    width: 11rem;
+    height: 3rem;
+    /* background-color: black; */
+    left: 42%;
+    top: 70%;
+    font-size: 1rem;
+    padding: 0.9rem;
+    text-transform: uppercase;
+    background-color: #2f454f;
+    border-radius: 5px;
+}
+
+.section7 a{
+    text-decoration: none;
+    color: white;
+}
